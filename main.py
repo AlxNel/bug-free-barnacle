@@ -21,3 +21,7 @@ print(
         )
     )
 )
+result = 0
+for i in FIGURES:
+    result += get_square(i)
+print(result)
